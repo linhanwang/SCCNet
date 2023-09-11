@@ -9,11 +9,26 @@ Network Architecture
 ------------
 ![network](architecture.png)
 
-Training
-------------
+### Installation
+* Install PyTorch 2.0.1 and other dependenies
+* Clone this repo
+
 ```
-bash train.sh
+git clone https://github.com/linhanwang/SCCNet.git
 ```
+
+### Data Preparation
+
+Download data from [here](), unzip and put it under your directory 'SCCNet'.
+
+
+### Train
+
+```
+python train.py  --max_steps 200000 --freeze True --datapath './remote_sensing/iSAID_patches' --img_size 256 --backbone resnet50 --fold 0 --benchmark isaid --lr 9e-4 --bsz 32 --logpath exp_name
+```
+
+The log and checkpoints are stored under directory 'logs'.
 
 ## Testing
 ```
