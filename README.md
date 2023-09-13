@@ -3,7 +3,7 @@
 
 Introduction
 ------------
-This is the source code for our paper Self-Correlation and Cross-Correlation Learning for Few-Shot Remote Sensing Image Semantic Segmentation, which is accepted to Sigspatial 2023.
+This is the source code for our paper [Self-Correlation and Cross-Correlation Learning for Few-Shot Remote Sensing Image Semantic Segmentation](http://arxiv.org/abs/2309.05840), which is accepted to Sigspatial 2023.
 
 Network Architecture
 ------------
