@@ -19,7 +19,7 @@ git clone https://github.com/linhanwang/SCCNet.git
 
 ### Data Preparation
 
-Download remote_sensing.tar.gz from [here](https://virginiatech-my.sharepoint.com/:f:/g/personal/linhan_vt_edu/Espmq6RyE-FEpEKj9B_JtT0B86l8cvkRSJdEaG5UTCW4Cg?e=8ltULm), unzip and put it under your directory 'SCCNet'.
+Download remote_sensing.tar.gz from [here](https://drive.google.com/drive/folders/1-URr9fX0v6_-Yo3B7St8UFNHiPWpXxnC?usp=sharing), unzip and put it under your directory 'SCCNet'.
 
 
 ### Train
