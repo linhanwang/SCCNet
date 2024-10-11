@@ -40,5 +40,20 @@ We provide a pretrained-model for the above setting. You can download it from [h
 
 The fusion process is implemented in test.py, you can turn it on in test.sh. You can turn it on by setting fuse=True. The option eigen_path is used to indicate the directory of eigen vectors. The process to generate eigen vectors is described in [spectral](spectral/README.md).
 
-## Reference
+### Citation
+
+If you find SCCNet useful in your research or applications, please cite using this BibTeX:
+
+```
+@inproceedings{wang2023self,
+  title={Self-Correlation and Cross-Correlation Learning for Few-Shot Remote Sensing Image Semantic Segmentation},
+  author={Wang, Linhan and Lei, Shuo and He, Jianfeng and Wang, Shengkun and Zhang, Min and Lu, Chang-Tien},
+  booktitle={Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems},
+  pages={1--10},
+  year={2023}
+}
+```
+
+### Acknowledgements
+
 We borrow code from public projects [SDM](https://github.com/caoql98/SDM), [HSNet](https://github.com/juhongm999/hsnet), [dss](https://github.com/lukemelas/deep-spectral-segmentation).
